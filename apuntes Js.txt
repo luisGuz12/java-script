@@ -1,0 +1,36 @@
+el modos estricto es una caracteristica de JS que te permite activar un conjunto de reglas mas estrictas para el lenguaje 
+entr las restricciones mas importantes que agrega el modo estricto es 
+1. no se pueden utilizar variables no declaradas
+2. no se pueden reasinar valores a parametros de funciones constantes 
+3. no se pueden utilizar palabras reservadas como identificadores 
+4. no se puede eliminar el objeto global 
+
+Tipos de datos en javascript 
+Tipos numericos 
+el tipo number representa los numeros enteros como flotantes
+el tipo numerico incluye valores especiales:
+1. infinity 
+2. NaN no es un numero cuando se divide entre strings
+el tipo numerico nativo de JS tiene una resolucion de +-2^53.
+el tipo de BingInt permite superar la capacidad nativa de los numeros en javascript
+
+Cadenas de Caracteres
+hay tres formas de crear cadenas en javascript 
+1. usando double quotes "esto es una cadena"
+2. usando single quotes 'esto es una cadena'
+3. usando backticks para interpolacion console.log(`Resultado:${}`
+El formato usada para almacenar las cadenas en Js es el utf-16 y no depende de la codificacion 
+
+Booleans
+los tipos booleanos en Js pueden valer: true y false
+ejemplo
+let dragon ={
+name: "falkor",
+hasName: true
+}
+console.log(dragon.hasName ? dragon.name : "Dragon doesn't have name")
+
+Tipo Null
+el tipo de dato nulo representa un valor inexistente del delibrtado o calculado 
+
+
