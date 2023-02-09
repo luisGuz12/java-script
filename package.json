@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "test de js",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisGuz12/java-script.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "luis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisGuz12/java-script/issues"
+  },
+  "homepage": "https://github.com/luisGuz12/java-script#readme"
+}
