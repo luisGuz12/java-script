@@ -17,7 +17,7 @@ const error500Path = path.join(__dirname, "./views/500.html");
           try{
       const data = await fs.readFile(indexPath);
       res.writeHead(200,{ "Content-Type": "text/html" });
-      console.log(`📣 Respondiendo: 200 ${req.url} ${req.method}`));
+      console.log(`📣 Respondiendo: 200 ${req.url} ${req.method}`);
       // Estableciendo codigo de respuesta
       res.statusCode = 200;
       // Cerrando la comunicacion
@@ -42,7 +42,7 @@ const error500Path = path.join(__dirname, "./views/500.html");
          try{
       const data = await fs.readFile(indexPath);
       res.writeHead(200,{ "Content-Type": "text/html" });
-      console.log(`📣 Respondiendo: 200 ${req.url} ${req.method}`));
+      console.log(`📣 Respondiendo: 200 ${req.url} ${req.method}`);
       // Estableciendo codigo de respuesta
       res.statusCode = 200;
       // Cerrando la comunicacion
@@ -155,3 +155,4 @@ const error500Path = path.join(__dirname, "./views/500.html");
       break;
   }
 };
+export default { requestHandler };
