@@ -1,8 +1,12 @@
 import http from "http";
-import app from './test.js'
+import path from "path";
 
-const server = http.createServer( app );
+import app from './app.js'
+
+global["__dirname"] = path.dirname(new URL(import.meta.url).pathname);
+
+const server = http.createServer(app.requestHandler); 
 
 server.listen(3000, "0.0.0.0", () => {
-  console.log("⏺️ Server listening in http://localhost:3000");
+  console.log("👩‍🍳 Servidor escuchando en http://localhost:3000"); 
 });
