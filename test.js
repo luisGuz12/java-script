@@ -125,9 +125,9 @@ const error500Path = path.join(__dirname, "./views/500.html");
       break;
     // Continua con el defautl
     default:
-            const img404 = path.join(__dirname, "/src/img_404.png")
+            const img404 = path.join(__dirname, "/src/error.png")
             try{
-                const data = await fs.readfile(img404);
+                const data = await fs.readfile(error);
                  res.writeHead(200, { "Content-Type": "image/x-icon" });
         res.end(data);
       // Peticion raiz
