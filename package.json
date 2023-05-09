@@ -1,22 +1,25 @@
 {
-  "name": "test",
-  "version": "0.0.0",
-  "description": "test de js",
-  "main": "test.js",
+  "name": "dwmc1-2023a",
+  "version": "1.0.0",
+  "description": "Proyecto de aprendizaje de la materia de pila completa 1",
+  "type": "module",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "main": "main.js",
   "scripts": {
-    "start": "node test.js"
+    "start": "node ./"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luisGuz12/java-script.git"
+    "url": "#"
   },
   "keywords": [
-    "test"
+    "node",
+    "expressjs",
+    "itgam"
   ],
-  "author": "luis",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luisGuz12/java-script/issues"
-  },
-  "homepage": "https://github.com/luisGuz12/java-script#readme"
+  "author": "@luisGuz12",
+  "license": "MIT"
 }
